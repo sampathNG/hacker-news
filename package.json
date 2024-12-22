@@ -1,0 +1,23 @@
+{
+  "name": "hacker-news",
+  "version": "1.0.0",
+  "description": "Learn the basics of building Node.js websites with Express and Pug by developing an application that searches Hacker News' top stories.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx pm2-dev server.js",
+    "start": "npx pm2 start server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "artillery": "^2.0.21",
+    "date-fns": "^2.27.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.2",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "pm2": "^5.1.2"
+  }
+}
